@@ -275,6 +275,10 @@ namespace TestFlight
                         }
                         else
                         {
+                            if (!engineData.hasBeenRun)
+                            {
+                                core.ModifyFlightData(perFlightMax/4, true); //Award DU for first successful ignition
+                            }
                             engineData.hasBeenRun = true;
                         }
                     }

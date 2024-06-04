@@ -20,6 +20,8 @@ namespace TestFlightAPI
         [KSPField]
         public string configuration = "";
         [KSPField]
+        public float perFlightMax = 0f;
+        [KSPField]
         public float duFail = 0f;
         [KSPField]
         public float duRepair = 0f;
@@ -162,6 +164,7 @@ namespace TestFlightAPI
             currentConfig.TryGetValue("severity", ref severity);
             currentConfig.TryGetValue("weight", ref weight);
             currentConfig.TryGetValue("failureTitle", ref failureTitle);
+            currentConfig.TryGetValue("perFlightMax", ref perFlightMax);
             currentConfig.TryGetValue("duFail", ref duFail);
             currentConfig.TryGetValue("duRepair", ref duRepair);
             currentConfig.TryGetValue("oneShot", ref oneShot);
