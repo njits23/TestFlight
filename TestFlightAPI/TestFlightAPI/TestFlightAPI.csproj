@@ -42,19 +42,23 @@
     <Reference Include="System" />
     <Reference Include="Assembly-CSharp">
       <Private>False</Private>
+      <HintPath>..\..\..\..\Kerbal Space Program_1.12.3_RP-1 3.2.1.0\KSP_x64_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass">
       <Private>False</Private>
+      <HintPath>..\..\..\..\Kerbal Space Program_1.12.3_RP-1 3.2.1.0\KSP_x64_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine">
       <Private>False</Private>
+      <HintPath>..\..\..\..\Kerbal Space Program_1.12.3_RP-1 3.2.1.0\KSP_x64_Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <Private>False</Private>
+      <HintPath>..\..\..\..\Kerbal Space Program_1.12.3_RP-1 3.2.1.0\KSP_x64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <Private>False</Private>
-      <HintPath>..\..\..\..\Kerbal Space Program_1.12.3_clean - Copy\KSP_x64_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>..\..\..\..\Kerbal Space Program_1.12.3_RP-1 3.2.1.0\KSP_x64_Data\Managed\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass">
       <Private>False</Private>
