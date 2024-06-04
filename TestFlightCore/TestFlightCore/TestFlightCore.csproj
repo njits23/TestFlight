@@ -44,6 +44,11 @@
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass">
       <Private>False</Private>
+      <HintPath>..\..\..\..\Kerbal Space Program_1.12.3_clean - Copy\KSP_x64_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <Private>False</Private>
+      <HintPath>..\..\..\..\Kerbal Space Program_1.12.3_clean - Copy\KSP_x64_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="KSPAssets">
@@ -75,6 +80,43 @@
     </Reference>
     <Reference Include="UnityEngine.UIModule">
       <Private>False</Private>
+      <HintPath>..\..\..\..\Kerbal Space Program_1.12.3_clean - Copy\KSP_x64_Data\Managed\KSPAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <Private>False</Private>
+      <HintPath>..\..\..\..\Kerbal Space Program_1.12.3_clean - Copy\KSP_x64_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <Private>False</Private>
+      <HintPath>..\..\..\..\Kerbal Space Program_1.12.3_clean - Copy\KSP_x64_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <Private>False</Private>
+      <HintPath>..\..\..\..\Kerbal Space Program_1.12.3_clean - Copy\KSP_x64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <Private>False</Private>
+      <HintPath>..\..\..\..\Kerbal Space Program_1.12.3_clean - Copy\KSP_x64_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <Private>False</Private>
+      <HintPath>..\..\..\..\Kerbal Space Program_1.12.3_clean - Copy\KSP_x64_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <Private>False</Private>
+      <HintPath>..\..\..\..\Kerbal Space Program_1.12.3_clean - Copy\KSP_x64_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <Private>False</Private>
+      <HintPath>..\..\..\..\Kerbal Space Program_1.12.3_clean - Copy\KSP_x64_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <Private>False</Private>
+      <HintPath>..\..\..\..\Kerbal Space Program_1.12.3_clean - Copy\KSP_x64_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <Private>False</Private>
+      <HintPath>..\..\..\..\Kerbal Space Program_1.12.3_clean - Copy\KSP_x64_Data\Managed\UnityEngine.UIModule.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
