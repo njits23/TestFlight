@@ -280,7 +280,7 @@ namespace TestFlight
                                 float ignitionDU = core.GetMaximumData() / 40;
                                 if (verboseDebugging)
                                 {
-                                    Log($"Awarding ignition DU: {ignitionDU:F4}");
+                                    Log($"IginitionFail Awarding successful ignition DU: {ignitionDU:F4}");
                                 }
                                 core.ModifyFlightData(ignitionDU, true); //Award DU for first successful ignition
                             }
