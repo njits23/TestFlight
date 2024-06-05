@@ -277,8 +277,8 @@ namespace TestFlight
                         {
                             if (numIgnitions==1)
                             {
-                                float ignitionDU = 250f; //perFlightMax / 4;
-                                Log($"Awarding ignition DU: {ignitionDU:F4}");
+                                float ignitionDU = core.GetMaximumData() / 40;
+                                Debug.Log($"Awarding ignition DU: {ignitionDU:F4}");
                                 core.ModifyFlightData(ignitionDU, true); //Award DU for first successful ignition
                             }
                             engineData.hasBeenRun = true;
