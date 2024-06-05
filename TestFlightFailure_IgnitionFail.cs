@@ -275,10 +275,13 @@ namespace TestFlight
                         }
                         else
                         {
-                            if (numIgnitions==1)
+                            if (core.GetFlightData() == initialFlightData) //Only award DU on the first ignition of each flight.
                             {
                                 float ignitionDU = core.GetMaximumData() / 40;
-                                Debug.Log($"Awarding ignition DU: {ignitionDU:F4}");
+                                if (verboseDebugging)
+                                {
+                                    Log($"Awarding ignition DU: {ignitionDU:F4}");
+                                }
                                 core.ModifyFlightData(ignitionDU, true); //Award DU for first successful ignition
                             }
                             engineData.hasBeenRun = true;
